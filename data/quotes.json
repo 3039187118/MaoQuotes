@@ -11,7 +11,7 @@
   },
   {
     "id": 3,
-    "cn": "一切结论产生于调查情况的末尾，而不是它的先头。",
+    "cn": "一切结论产生于调查情况的末尾，而不是在它的先头。",
     "en": "All conclusions arise at the end of investigation, not at its beginning.",
     "source": "《毛泽东选集》第一卷《反对本本主义》",
     "tags": [
@@ -27,16 +27,6 @@
     "tags": [
       "philosophy",
       "investigation"
-    ]
-  },
-  {
-    "id": 5,
-    "cn": "马克思主义的哲学辩证唯物论有两个最显著的特点：一个是它的阶级性，一个是它的实践性。",
-    "en": "Marxist dialectical materialism has two distinctive features: its class character and its practical character.",
-    "source": "《毛泽东选集》第一卷《实践论》",
-    "tags": [
-      "philosophy",
-      "praxis"
     ]
   },
   {
@@ -153,7 +143,7 @@
   },
   {
     "id": 18,
-    "cn": "矛盾是普遍的、绝对的，存在于事物发展的一切过程中，又贯穿于一切过程的始终。",
+    "cn": "矛盾是普遍的、绝对的，存在于事物发展的一切过程中，又贯串于一切过程的始终。",
     "en": "Contradiction is universal and absolute, present in every process of development and贯穿 through every process from beginning to end.",
     "source": "《毛泽东选集》第一卷《矛盾论》",
     "tags": [
@@ -205,7 +195,7 @@
   },
   {
     "id": 29,
-    "cn": "'实事'就是客观存在着的一切事物，'是'就是客观事物的内部联系，即规律性，'求'就是我们去研究。",
+    "cn": "“实事”就是客观存在着的一切事物，“是”就是客观事物的内部联系，即规律性，“求”就是我们去研究。",
     "en": "'Shi' means the objective things; 'shi' (is) means their internal relations, i.e., laws; 'qiu' (seek) means we must study them.",
     "source": "《毛泽东选集》第三卷《改造我们的学习》",
     "tags": [
@@ -236,7 +226,7 @@
   },
   {
     "id": 35,
-    "cn": "马克思主义的'本本'是要学习的，但是必须同我国的实际情况相结合。",
+    "cn": "马克思主义的“本本”是要学习的，但是必须同我国的实际情况相结合。",
     "en": "We must study Marxist 'books,' but they must be combined with China's actual conditions.",
     "source": "《毛泽东选集》第一卷《反对本本主义》",
     "tags": [
@@ -410,7 +400,7 @@
   },
   {
     "id": 66,
-    "cn": "战争的目的不是别的，就是'保存自己，消灭敌人'。",
+    "cn": "战争的目的不是别的，就是“保存自己，消灭敌人”。",
     "en": "The purpose of war is none other than 'preserve oneself and annihilate the enemy.'",
     "source": "《毛泽东选集》第二卷《论持久战》",
     "tags": [
@@ -420,7 +410,7 @@
   },
   {
     "id": 67,
-    "cn": "保存自己，消灭敌人这个战争的目的，就是战争的本质，就是一切战争行动的根据。",
+    "cn": "保存自己消灭敌人这个战争的目的，就是战争的本质，就是一切战争行动的根据。",
     "en": "Preserving oneself and annihilating the enemy — this purpose is the essence of war and the basis of all military action.",
     "source": "《毛泽东选集》第二卷《论持久战》",
     "tags": [
@@ -430,7 +420,7 @@
   },
   {
     "id": 68,
-    "cn": "武器是战争的重要因素，但不是决定的因素，决定的因素是人不是物。",
+    "cn": "武器是战争的重要的因素，但不是决定的因素，决定的因素是人不是物。",
     "en": "Weapons are an important factor in war but not the decisive one; the decisive factor is people, not things.",
     "source": "《毛泽东选集》第二卷《论持久战》",
     "tags": [
@@ -480,7 +470,7 @@
   },
   {
     "id": 75,
-    "cn": "保存自己，消灭敌人的原则，是一切军事原则的根据。",
+    "cn": "保存自己消灭敌人的原则，是一切军事原则的根据。",
     "en": "The principle of preserving oneself and annihilating the enemy is the basis of all military principles.",
     "source": "《毛泽东选集》第二卷",
     "tags": [
@@ -778,7 +768,7 @@
   },
   {
     "id": 118,
-    "cn": "世界上怕就怕'认真'二字，共产党就最讲认真。",
+    "cn": "世界上怕就怕“认真”二字，共产党就最讲认真。",
     "en": "In the world, the two words most to be feared are 'earnestness'; Communists are the most earnest people.",
     "source": "《在莫斯科大学会见中国留学生时的讲话》（1957年11月17日）",
     "tags": [
