@@ -591,16 +591,6 @@
     ]
   },
   {
-    "id": 91,
-    "cn": "古为今用，洋为中用。",
-    "en": "Make the past serve the present, the foreign serve China.",
-    "source": "《毛泽东文集》",
-    "tags": [
-      "culture",
-      "art"
-    ]
-  },
-  {
     "id": 92,
     "cn": "推陈出新。",
     "en": "Discard the old and bring forth the new.",
@@ -628,16 +618,6 @@
     "tags": [
       "culture",
       "study"
-    ]
-  },
-  {
-    "id": 95,
-    "cn": "自力更生为主，争取外援为辅。",
-    "en": "Rely mainly on our own efforts while seeking assistance from outside as a supplement.",
-    "source": "《毛泽东文集》第七卷《独立自主地搞建设》",
-    "tags": [
-      "economy",
-      "self-reliance"
     ]
   },
   {
@@ -748,15 +728,6 @@
     ]
   },
   {
-    "id": 113,
-    "cn": "一个人做点好事并不难，难的是一辈子做好事，不做坏事。",
-    "en": "It is not hard for a person to do good occasionally; what is hard is to do good all one's life and never do evil.",
-    "source": "《在中共中央举行的庆祝吴玉章同志六十寿辰大会上的祝词》",
-    "tags": [
-      "self-cultivation"
-    ]
-  },
-  {
     "id": 114,
     "cn": "世界观的转变是一个根本的转变。",
     "en": "A change in world outlook is a fundamental change.",
@@ -764,15 +735,6 @@
     "tags": [
       "self-cultivation",
       "philosophy"
-    ]
-  },
-  {
-    "id": 118,
-    "cn": "世界上怕就怕“认真”二字，共产党就最讲认真。",
-    "en": "In the world, the two words most to be feared are 'earnestness'; Communists are the most earnest people.",
-    "source": "《在莫斯科大学会见中国留学生时的讲话》（1957年11月17日）",
-    "tags": [
-      "self-cultivation"
     ]
   },
   {

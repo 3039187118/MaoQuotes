@@ -59,16 +59,17 @@ python -m PyInstaller MaoLiveWallpaper.spec --noconfirm --distpath dist --workpa
 [
   {
     "id": 1,
-    "cn": "没有调查，没有发言权",
+    "cn": "没有调查，就没有发言权。",
     "en": "No investigation, no right to speak.",
-    "source_cn": "《毛泽东选集》·反对本本主义",
-    "source_en": "Selected Works of Mao Zedong",
-    "tags": ["work", "morning"]
+    "source": "《毛泽东选集》第一卷《反对本本主义》",
+    "tags": ["philosophy", "investigation"]
   }
 ]
 ```
 
-`tags` 字段用于预留的「时段感知」选择器（morning / afternoon / evening / night）。
+- `source` 是出处，会显示在语录下方。写成 `source_cn` 也认。
+- `en`、`source`、`tags` 都可以省略；`source` 省略时显示默认的「《毛泽东选集》」。
+- `tags` 用于预留的「时段感知」选择器（morning / afternoon / evening / night）。
 
 
 

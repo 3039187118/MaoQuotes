@@ -18,7 +18,7 @@ import random
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 from datetime import datetime
-from typing import Iterable, Sequence
+from typing import Iterable, Iterator, Sequence
 
 import paths
 
@@ -55,11 +55,16 @@ class Quote:
         tags = raw.get("tags") or ()
         if isinstance(tags, str):
             tags = (tags,)
+        # 出处字段历史上出现过两种写法，都认：
+        #   source_cn / source_en —— README 里写的、旧版数据用的
+        #   source                —— 现用 data/quotes.json 里的字段
+        # 少了这个兜底，所有语录的出处都会退化成默认的「《毛泽东选集》」。
+        source_cn = raw.get("source_cn") or raw.get("source") or DEFAULT_SOURCE_CN
         return cls(
             id=int(raw.get("id", index + 1)),
             cn=cn,
             en=en,
-            source_cn=str(raw.get("source_cn") or DEFAULT_SOURCE_CN),
+            source_cn=str(source_cn),
             source_en=str(raw.get("source_en") or DEFAULT_SOURCE_EN),
             tags=tuple(str(t) for t in tags),
         )
@@ -128,7 +133,13 @@ class QuoteLibrary:
         return len(self._quotes)
 
     def __getitem__(self, index: int) -> Quote:
+        # 取模是为了让 library[-1] / library[999] 这类越界访问能环绕，
+        # 但副作用是永远不会抛 IndexError —— 所以必须显式实现 __iter__，
+        # 否则 `for q in library` 会走序列协议并陷入死循环。
         return self._quotes[index % len(self._quotes)]
+
+    def __iter__(self) -> Iterator[Quote]:
+        return iter(self._quotes)
 
 
 # --------------------------------------------------------------------- 选择器
