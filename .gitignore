@@ -1,0 +1,30 @@
+# ---- 打包产物 ----
+build/
+build_*/
+dist/
+dist_*/
+*.spec.bak
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- 运行期生成 ----
+logs/
+cache/
+*.log
+
+# ---- 编辑器 / 助手 ----
+.workbuddy/
+.workbuddy-ai/
+.vscode/
+.idea/
+
+# ---- 系统 ----
+Thumbs.db
+Desktop.ini
+.DS_Store

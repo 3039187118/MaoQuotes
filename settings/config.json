@@ -1,0 +1,36 @@
+{
+  "time_interval": 120,
+  "play_mode": "random",
+  "show_cn": true,
+  "show_en": true,
+  "show_source": true,
+  "show_seal": true,
+  "show_page_number": true,
+  "animation_enabled": true,
+  "animation_duration": 3.0,
+  "page_turn_enabled": true,
+  "paper_drift": true,
+  "background_color": [
+    245,
+    240,
+    225
+  ],
+  "text_color": [
+    38,
+    34,
+    30
+  ],
+  "seal_color": [
+    150,
+    42,
+    36
+  ],
+  "font_cn": "",
+  "font_en": "",
+  "cn_size_ratio": 0.062,
+  "wallpaper_fit": "fill",
+  "render_size": "auto",
+  "embed_desktop": true,
+  "all_screens": true,
+  "autostart": false
+}
